@@ -1,0 +1,45 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo img {
+    height: 30px;
+    width: auto;
+}
+
+.btn-group button {
+    margin-right: 10px;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login {
+    color: black;
+    background-color: #fff;
+}
+
+.btn-group .btn-register {
+    color: #FFFFFF;
+    background: #01CB63 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #01CB6359;
+    border-radius: 10px;
+}
+
+.btn-group button:last-child {
+    margin-right: 0;
+}
