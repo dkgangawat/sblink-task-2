@@ -10,8 +10,8 @@
                 <h2 class="card-heading">{{ course.heading }}</h2>
                 <div class="card-students">{{ course.total_students }}</div>
                 <div class="card-details">
-                    <div class="card-time">{{ course.total_time }}</div>
-                    <div class="card-lectures">{{ course.toatl_lectures }}</div>
+                    <div class="card-time"><i class="fa-regular fa-clock"></i>{{ course.total_time }}</div>
+                    <div class="card-lectures"><i class="fa-regular fa-calendar-days"></i> {{ course.toatl_lectures }}</div>
                 </div>
                 <hr>
                 <div class="card-author">

@@ -95,6 +95,7 @@ export default defineComponent({
         console.log("Form submitted");
       } else {
         // display error message or highlight invalid fields
+        alert("all field in this are Reauired")
         console.log("Form is invalid");
       }
     },
